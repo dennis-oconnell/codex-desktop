@@ -1,0 +1,14 @@
+{
+  "name": "codex-reader",
+  "version": "1.0.0",
+  "description": "a pdf and epub reader designed for studying ancient texts and learning ancient languages such as ancient Greek, Latin, and Hebrew. ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dennis O'Connell",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.3.1"
+  }
+}
