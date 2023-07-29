@@ -7,8 +7,11 @@
   <h1>Hello, Welcome to Codex! Your tool for reading ancient texts!</h1>
   <h3></h3>
 
-  <input type="file" id="fileInput">
-  <button id="uploadButton">Upload your pdf or epub file!</button>
-
+  <!-- Your HTML form for file upload -->
+  <form action="http://localhost:3000/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" />
+    <button type="submit">Upload</button>
+  </form>
+  
 </body>
 </html>
